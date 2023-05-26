@@ -1,0 +1,56 @@
+@import url("https://fonts.cdnfonts.com/css/inter");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 200;
+  font-size: 0.8vw;
+  scrollbar-width: thin;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 3px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #7c1f58;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ff989f;
+  border: 3px solid #ff989f;
+}
+
+.pinkTextColor {
+  background: linear-gradient(180deg, #ffcdcc 0%, #ff989f 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.yellowTextColor {
+  background: linear-gradient(180deg, #fffdcc 0%, #fff600 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.pinkBorderColor {
+  border: 1px solid #ff989f;
+}
+
+.listHover:hover {
+  background: linear-gradient(180deg, #7c1f58 0%, #21001b 100%) !important;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.btnHoverPink:hover {
+  background: linear-gradient(180deg, #ff005c 0%, #7b005b 100%) !important;
+}
