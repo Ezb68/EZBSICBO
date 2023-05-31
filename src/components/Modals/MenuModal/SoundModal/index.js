@@ -21,9 +21,9 @@ const data = [
 const SoundModal = () => {
   const { handleModal, ModalTypes } = useContext(Context);
   return (
-    <div className="sm:w-[80%] md:w-[600px] sm:h-max md:h-[700px] absolute sm:right-auto md:right-[100px] top-0 bg-[#1C1C1C] border border-[#F3C3D1] px-[30px] py-[20px]">
+    <div className="xs:w-[80%] md:w-[600px] xs:h-max md:h-[700px] absolute xs:right-auto md:right-[100px] top-0 bg-[#1C1C1C] border border-[#F3C3D1] xs:px-[20px] sm:px-[30px] py-[20px]">
       <div className="flex justify-center py-2 border-b border-b-[#F3C3D1] relative">
-        <h5 className="text-white sm:text-[14px] md:text-[24px] font-bold">
+        <h5 className="text-white xs:text-[14px] md:text-[24px] font-bold">
           Cài đặt âm lượng
         </h5>
         <button
@@ -34,7 +34,7 @@ const SoundModal = () => {
         </button>
       </div>
 
-      <div className="flex flex-col gap-5 py-10">
+      <div className="flex flex-col gap-5 xs:py-[20px] sm:py-10">
         {data.map((item, i) => (
           <Bars data={item} key={i} />
         ))}

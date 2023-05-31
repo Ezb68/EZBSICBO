@@ -5,7 +5,7 @@ import LowerBox from "./LowerBox";
 const Sidebar = () => {
   return (
     <div
-      className="w-[25%] h-full overflow-y-scroll sm:hidden md:block"
+      className="w-[25%] h-full overflow-y-scroll xs:hidden sm:hidden md:block"
       style={{
         background: "linear-gradient(180deg, #26001A 0%, #160015 100%)",
       }}

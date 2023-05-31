@@ -15,8 +15,8 @@ const Lists = () => {
           key={i}
           className="bg-[#505050] px-5 py-2 flex gap-5 text-white hover:bg-[#016879]"
         >
-          <span className="sm:text-[14px] md:text-[.8vw]">{i + 1}.</span>
-          <p className="sm:text-[14px] md:text-[.8vw]">{item}</p>
+          <span className="xs:text-[14px] md:text-[.8vw]">{i + 1}.</span>
+          <p className="xs:text-[14px] md:text-[.8vw]">{item}</p>
         </button>
       ))}
       <div className="flex justify-center items-center gap-5 mt-2">

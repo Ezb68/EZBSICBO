@@ -36,14 +36,16 @@ const MobileMenu = () => {
           background: "linear-gradient(180deg, #26001A 0%, #160015 100%)",
         }}
       >
-        <span className="flex items-center gap-3">
+        <span className="flex items-center gap-2">
           <img
             src="./assets/coins/res.png"
             alt="dropdown"
-            className="w-[30px]"
+            className="xs:w-[20px] sm:w-[25px] md:w-[30px]"
           />
 
-          <span className="sm:text-[14px] md:text-[.8vw]">Cá cược tự động</span>
+          <span className="xs:text-[12px] sm:text-[14px] md:text-[.8vw]">
+            Cá cược tự động
+          </span>
         </span>
         <Switch active={active} setActive={setActive} />
       </div>

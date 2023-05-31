@@ -9,6 +9,11 @@ body {
   font-size: 0.8vw;
   scrollbar-width: thin;
 }
+@media screen and (max-width: 479px) {
+  body {
+    font-size: 3.5vw;
+  }
+}
 
 /* Chrome, Edge, and Safari */
 *::-webkit-scrollbar {

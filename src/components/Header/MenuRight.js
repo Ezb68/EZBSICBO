@@ -6,30 +6,35 @@ const MenuRight = () => {
   const data = [
     {
       keyword: "dollar",
+      xs: "hidden",
       sm: "block",
       md: "block",
       alert_type: "pink",
     },
     {
       keyword: "call",
+      xs: "hidden",
       sm: "hidden",
       md: "block",
       modal_type: ModalTypes.bettingModal,
     },
     {
       keyword: "sound",
+      xs: "hidden",
       sm: "block",
       md: "block",
       modal_type: ModalTypes.sound,
     },
     {
       keyword: "home",
+      xs: "hidden",
       sm: "hidden",
       md: "block",
       modal_type: ModalTypes.playBackModal,
     },
     {
       keyword: "hamb-menu",
+      xs: "block",
       sm: "block",
       md: "block",
       modal_type: ModalTypes.menuModal,
@@ -41,7 +46,7 @@ const MenuRight = () => {
       return (
         <button
           key={i}
-          className={`sm:${value.sm} md:${value.md} cursor-pointer sm:w-[25px] md:w-[40px]`}
+          className={`xs:${value.xs} sm:${value.sm} md:${value.md} cursor-pointer xs:w-[25px] md:w-[40px]`}
           onClick={() => handleAlert("pink")}
         >
           <img
@@ -54,7 +59,7 @@ const MenuRight = () => {
       return (
         <button
           key={i}
-          className={`sm:${value.sm} md:${value.md} cursor-pointer sm:w-[25px] md:w-[40px]`}
+          className={`xs:${value.xs} sm:${value.sm} md:${value.md} cursor-pointer xs:w-[25px] md:w-[40px]`}
           onClick={() => handleModal(value.modal_type)}
         >
           <img
@@ -67,7 +72,7 @@ const MenuRight = () => {
       return (
         <button
           key={i}
-          className={`sm:${value.sm} md:${value.md} cursor-pointer sm:w-[25px] md:w-[40px]`}
+          className={`xs:${value.xs} sm:${value.sm} md:${value.md} cursor-pointer xs:w-[25px] md:w-[40px]`}
         >
           <img
             src={`./assets/menu-right/${value.keyword}.png`}
@@ -80,7 +85,7 @@ const MenuRight = () => {
 
   return (
     <div className="flex items-center gap-[12px] mx-5">
-      <div className="sm:hidden md:flex items-center justify-between gap-6 h-[40px] border-x border-x-[#FFCDCC] px-3 mr-4 cursor-pointer">
+      <div className="xs:hidden md:flex items-center justify-between gap-6 h-[40px] border-x border-x-[#FFCDCC] px-3 mr-4 cursor-pointer">
         <p className="pinkTextColor text-[12px]">Tiếng Việt</p>
         <img src="./assets/menu-right/dropdown.png" alt="dropdown-icon" />
       </div>

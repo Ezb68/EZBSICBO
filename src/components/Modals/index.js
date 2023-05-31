@@ -41,7 +41,7 @@ const Modals = () => {
   }, [modal]);
 
   return (
-    <div className="fixed w-full sm:h-[calc(100vh_-_50px)] md:h-[calc(100vh_-_60px)] top-[50px] sm:md:top-[60px] left-0 bg-none z-50 flex justify-center items-center">
+    <div className="fixed w-full xs:h-[calc(100vh_-_50px)] md:h-[calc(100vh_-_60px)] top-[50px] xs:md:top-[60px] left-0 bg-none z-50 flex justify-center items-center">
       {getComponent()}
     </div>
   );

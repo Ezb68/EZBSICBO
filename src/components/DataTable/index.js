@@ -150,9 +150,9 @@ const tableData = [
 
 const DataTable = () => {
   return (
-    <table class="table-auto w-full border-collapse sm:hidden md:table">
+    <table class="table-auto w-full border-collapse xs:hidden md:table">
       <thead>
-        <tr className="sm:text-[14px] md:text-[.8vw] sm:hidden md:table-row">
+        <tr className="xs:text-[14px] md:text-[.8vw] xs:hidden md:table-row">
           {tableHeader.map((item, i) => (
             <th key={i} className="text-white py-2 px-3 bg-[#7C1F58]">
               {item}
@@ -164,7 +164,7 @@ const DataTable = () => {
         {tableData.map((item, i) => (
           <tr
             key={i}
-            className="border border-[#FF005C] bg-[#110012] sm:text-[14px] md:text-[.8vw]"
+            className="border border-[#FF005C] bg-[#110012] xs:text-[14px] md:text-[.8vw]"
           >
             <td className="text-white py-2 px-3 text-center">{item.one}</td>
             <td className="text-white py-2 px-3 text-center">{item.two}</td>

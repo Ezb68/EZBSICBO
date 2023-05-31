@@ -4,7 +4,7 @@ const Row = ({ item }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-[#110012] sm:text-[14px] md:text-[.8vw]">
+    <div className="bg-[#110012] xs:text-[12px] md:text-[.8vw]">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="text-white py-3 px-5 text-center bg-[#7C1F58] border border-[#FF005C] border-b-0 last:border-b flex justify-between items-center w-full"
@@ -35,17 +35,17 @@ const Row = ({ item }) => {
               <img
                 src="./assets/cube/2.png"
                 alt="two"
-                className="w-[30px] h-max"
+                className="xs:w-[20px] sm:w-[30px] h-max"
               />
               <img
                 src="./assets/cube/5.png"
                 alt="five"
-                className="w-[30px] h-max"
+                className="xs:w-[20px] sm:w-[30px] h-max"
               />
               <img
                 src="./assets/cube/5.png"
                 alt="five"
-                className="w-[30px] h-max"
+                className="xs:w-[20px] sm:w-[30px] h-max"
               />
             </div>
           </div>

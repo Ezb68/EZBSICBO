@@ -6,7 +6,7 @@ const Card = ({ data }) => {
       className="flex border border-[#7C1F58] rounded-[5px] justify-center"
       style={{ width: `13.8%` }}
     >
-      <div className="flex p-1 justify-between gap-1 items-center">
+      <div className="flex xs:flex-wrap sm:flex-nowrap p-1 justify-between gap-1 items-center">
         <img
           src={`./assets/cube/${data}.png`}
           alt={`${data}`}

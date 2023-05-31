@@ -4,7 +4,7 @@ import Coins from "./Coins";
 
 const PickGameSidebar = () => {
   return (
-    <div className="sm:hidden md:flex flex-col justify-between w-[220px] bg-[#21001B]">
+    <div className="xs:hidden md:flex flex-col justify-between w-[220px] bg-[#21001B]">
       <div className="flex flex-col">
         <User />
         <Coins />

@@ -39,7 +39,7 @@ const data = [
 
 const FirstRow = () => {
   return (
-    <div className="flex h-[80px] gap-2">
+    <div className="flex h-[80px] xs:gap-1 sm:gap-2">
       {data.map((item, i) => (
         <Card key={i} data={item} />
       ))}

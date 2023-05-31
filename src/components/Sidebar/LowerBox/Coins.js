@@ -45,19 +45,23 @@ const Coins = ({ mobile }) => {
   ];
 
   return (
-    <div className="sm:rounded-none md:rounded-[10px] sm:mx-0 md:mx-auto border border-[#7C1F58] sm:border-b-0 md:border-b mt-4 flex sm:flex-nowrap md:flex-wrap sm:p-5 md:p-2 sm:gap-2 md:gap-0">
+    <div className="xs:rounded-none md:rounded-[10px] xs:mx-0 md:mx-auto border border-[#7C1F58] xs:border-b-0 md:border-b mt-4 flex xs:flex-nowrap md:flex-wrap xs:p-5 md:p-2 xs:gap-2 md:gap-0 items-center">
       {(mobile ? coins.splice(0, 5) : coins).map((item, index) => (
-        <button key={index} className="sm:w-1/5 md:w-1/4 sm:p-0 md:p-3">
+        <button key={index} className="xs:w-1/5 md:w-1/4 xs:p-0 md:p-3">
           <img
             src={item.icon}
             alt={item.value}
-            className="sm:h-[60px] sm:w-[60px] md:w-full md:h-full"
+            className="xs:h-max xs:w-[60px] md:w-full md:h-full"
           />
         </button>
       ))}
       {mobile && (
-        <button className="sm:w-1/6 md:w-1/4 sm:p-0 md:p-3">
-          <img src="./assets/coins/res.png" alt="More" className="w-[80px]" />
+        <button className="xs:w-1/6 md:w-1/4 xs:p-0 md:p-3 h-max">
+          <img
+            src="./assets/coins/res.png"
+            alt="More"
+            className="w-[80px] h-max"
+          />
         </button>
       )}
     </div>

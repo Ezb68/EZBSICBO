@@ -55,11 +55,11 @@ const data = [
 
 const EigthRow = () => {
   return (
-    <div className="flex">
+    <div className="flex xs:flex-wrap sm:flex-nowrap">
       {data.map((item, i) => (
         <div
           key={i}
-          className="flex border border-r-0 last:border-r  last:border-r-[#7C1F58] border-[#7C1F58] justify-center w-full"
+          className="flex border border-r-0 last:border-r  last:border-r-[#7C1F58] border-[#7C1F58] justify-center xs:w-1/6 sm:w-full"
         >
           <div className="flex flex-col text-white p-1 justify-center items-center">
             <p className="font-bold text-[14px]" style={{ color: item.color }}>

@@ -5,45 +5,45 @@ const PlayBackModal = () => {
   const { handleModal, ModalTypes } = useContext(Context);
   return (
     <div
-      className="sm:w-[80%] md:w-[840px] border border-[#FFCDCC]"
+      className="xs:w-[80%] md:w-[840px] border border-[#FFCDCC]"
       style={{
         background:
           "linear-gradient(180deg, rgba(38, 0, 26, 0.95) 0%, rgba(22, 0, 21, 0.95) 100%)",
       }}
     >
-      <div className="flex justify-between bg-[#1C1C1C] sm:px-[20px] md:px-[30px] sm:py-[15px] md:py-[20px]">
+      <div className="flex justify-between bg-[#1C1C1C] xs:px-[20px] md:px-[30px] xs:py-[15px] md:py-[20px]">
         <div className="">
-          <p className="text-white sm:text-[14px] md:text-[.8vw]">Kết quả</p>
-          <p className="text-[#FF005C] sm:text-[12px] md:text-[.8vw]">
+          <p className="text-white xs:text-[14px] md:text-[.8vw]">Kết quả</p>
+          <p className="text-[#FF005C] xs:text-[12px] md:text-[.8vw]">
             EZB 12314202324
           </p>
         </div>
         <div className="flex gap-5 items-center">
-          <h3 className="text-[42px] text-white font-normal sm:text-[14px] md:text-[.8vw]">
+          <h3 className="text-[42px] text-white font-normal xs:text-[14px] md:text-[.8vw]">
             12
           </h3>
           <div className="h-[60%] w-[1px] bg-[#FFCDCC]"></div>
-          <p className="text-white sm:text-[14px] md:text-[.8vw]">Tài</p>
-          <div className="flex gap-3 h-max">
+          <p className="text-white xs:text-[14px] md:text-[.8vw]">Tài</p>
+          <div className="flex gap-3 h-max xs:hidden sm:flex">
             <img
               src="./assets/cube/3.png"
               alt="3"
-              className="sm:w-[30px] md:w-auto h-max"
+              className="xs:w-[30px] md:w-auto h-max"
             />
             <img
               src="./assets/cube/4.png"
               alt="4"
-              className="sm:w-[30px] md:w-auto h-max"
+              className="xs:w-[30px] md:w-auto h-max"
             />
             <img
               src="./assets/cube/5.png"
               alt="5"
-              className="sm:w-[30px] md:w-auto h-max"
+              className="xs:w-[30px] md:w-auto h-max"
             />
           </div>
         </div>
         <button
-          className="sm:w-[15px] md:w-[20px] sm:h-[15px] md:h-[20px]"
+          className="xs:w-[15px] md:w-[20px] xs:h-[15px] md:h-[20px]"
           onClick={() => handleModal(ModalTypes.playBackModal)}
         >
           <img src="./assets/icons/cancel.png" alt="cancel" />
@@ -52,7 +52,7 @@ const PlayBackModal = () => {
       <div className="">
         <img src="./assets/main/table.png" alt="vid" />
       </div>
-      <div className="py-3 sm:px-[20px] md:px-[30px] bg-[#000000] flex items-center sm:gap-5 md:gap-10">
+      <div className="py-3 xs:px-[20px] md:px-[30px] bg-[#000000] flex items-center xs:gap-5 md:gap-10">
         <button>
           <img src="./assets/icons/play.png" alt="play" />
         </button>

@@ -38,9 +38,11 @@ const CubeStats = () => {
               alt={item.value}
               className="w-[28px]"
             />
-            <span className="font-bold">{item.percentage}%</span>
+            <span className="font-bold xs:text-[12px] sm:text-[16px]">
+              {item.percentage}%
+            </span>
           </div>
-          <div className="w-[120px]">
+          <div className="xs:w-[80px] sm:w-[120px]">
             <div className="bg-[#292929] h-[10px] rounded-full overflow-hidden">
               <div
                 className="bg-[#FF005C] h-full rounded-full"

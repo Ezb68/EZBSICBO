@@ -18,15 +18,15 @@ const StartScreen = () => {
 
   return (
     <div className="h-screen fixed w-full">
-      <div className="absolute flex flex-col left-1/2 -translate-x-1/2 sm:bottom-[50px] md:bottom-[100px] items-center sm:w-[80%] md:w-full">
-        <h3 className="pinkTextColor font-bold sm:text-[10vw] md:text-[54px]">
+      <div className="absolute flex flex-col left-1/2 -translate-x-1/2 xs:bottom-[50px] md:bottom-[100px] items-center xs:w-[80%] md:w-full">
+        <h3 className="pinkTextColor font-bold xs:text-[10vw] md:text-[54px]">
           {parseInt(width)}%
         </h3>
-        <h5 className="text-white sm:text-[3vw] md:text-[24px] -mt-2">
+        <h5 className="text-white xs:text-[3vw] md:text-[24px] -mt-2">
           Loading...
         </h5>
         <div
-          className="sm:w-full md:w-[900px] h-[10px] flex rounded-full mt-8"
+          className="xs:w-full md:w-[900px] h-[10px] flex rounded-full mt-8"
           style={{
             background: "linear-gradient(180deg, #292929 0%, #0E0508 100%)",
           }}
@@ -43,12 +43,12 @@ const StartScreen = () => {
       <img
         src="./assets/start.png"
         alt="start-screen"
-        className="w-full h-screen sm:hidden md:block"
+        className="w-full h-screen xs:hidden md:block"
       />
       <img
         src="./assets/start-mobile.png"
         alt="start-screen-mobile"
-        className="w-full h-screen object-cover object-top sm:block md:hidden"
+        className="w-full h-screen object-cover object-top xs:block md:hidden"
       />
     </div>
   );

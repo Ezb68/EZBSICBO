@@ -8,7 +8,7 @@ const Main = () => {
   return (
     <Layout>
       <Header />
-      <div className="flex sm:h-full md:h-[calc(100vh_-_60px)] sm:relative md:fixed w-full">
+      <div className="flex xs:h-full md:h-[calc(100vh_-_60px)] xs:relative md:fixed w-[100vw]">
         <PlayGround />
         <Sidebar />
       </div>

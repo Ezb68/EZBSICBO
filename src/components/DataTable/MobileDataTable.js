@@ -136,7 +136,7 @@ const tableData = [
 
 const MobileDataTable = () => {
   return (
-    <div className="flex-col gap-3 sm:flex md:hidden">
+    <div className="flex-col gap-3 xs:flex md:hidden">
       {tableData.map((item, i) => (
         <Row key={i} item={item} />
       ))}
