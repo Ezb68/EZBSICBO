@@ -14,7 +14,7 @@ const Tracking = () => {
 
   return (
     <div className="flex">
-      <div className="w-[200px] flex flex-col">
+      <div className="lg:w-[90px] xl:w-[120px] 2xl:w-[200px] flex flex-col">
         {names.map((item, i) => (
           <button
             key={i}
@@ -31,8 +31,7 @@ const Tracking = () => {
             {results.map((item, i) => (
               <td
                 key={i}
-                className="h-[30px] border border-[#767676]"
-                style={{ width: `${100 / 40}%` }}
+                className="h-[30px] border border-[#767676] w-[29.5px]"
               >
                 {item}
               </td>

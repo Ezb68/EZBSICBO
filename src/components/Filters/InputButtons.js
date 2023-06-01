@@ -9,28 +9,28 @@ const InputButtons = () => {
   return (
     <div className="flex xs:flex-col sm:flex-row gap-1 md:gap-3 xs:justify-between items-center md:justify-start">
       <div className="flex items-center gap-3">
-        <label className="text-white xs:hidden md:block text-[.8vw]">
+        <label className="text-white xs:hidden lg:hidden 2xl:block text-[.8vw]">
           From
         </label>
         <Calendar />
-        <div className="xs:hidden md:block">
+        <div className="xs:hidden lg:hidden 2xl:block">
           <DropwDown data={"00:00"} />
         </div>
       </div>
-      <div className="xs:hidden sm:block md:hidden w-[20px] h-[20px]">
+      <div className="xs:hidden sm:block md:hidden lg:hidden 2xl:block w-[20px] h-[20px]">
         <img src="./assets/icons/six-square.png" alt="square" />
       </div>
       <div className="flex items-center gap-3">
-        <label className="text-white xs:hidden md:block">To</label>
+        <label className="text-white xs:hidden lg:hidden 2xl:block">To</label>
         <Calendar />
-        <div className="xs:hidden md:block">
+        <div className="xs:hidden lg:hidden 2xl:block">
           <DropwDown data={"00:00"} />
         </div>
-        <div className="xs:hidden md:block">
+        <div className="xs:hidden lg:hidden 2xl:block">
           <DropwDown data={"Toàn bộ"} />
         </div>
       </div>
-      <div className="xs:hidden sm:block md:hidden w-[20px] h-[20px]">
+      <div className="xs:hidden sm:block md:hidden lg:hidden 2xl:block w-[20px] h-[20px]">
         <img src="./assets/icons/six-square.png" alt="square" />
       </div>
       <button

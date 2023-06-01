@@ -13,7 +13,7 @@ const Buttons = ({ data }) => {
         }}
         onClick={() => (data.isDropdown ? setIsOpen(!isOpen) : false)}
       >
-        <span className="sm:text-[14px] md:text-[.8vw]">{data.label}</span>
+        <span className="sm:text-[14px] xl:text-[.8vw]">{data.label}</span>
         <span>
           {data.isDropdown && (
             <img

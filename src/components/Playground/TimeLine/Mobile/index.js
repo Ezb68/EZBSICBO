@@ -18,7 +18,7 @@ import WarmStats from "./WarmStats";
 const Mobile = () => {
   return (
     <div>
-      <div className="flex-col xs:flex md:hidden gap-2 xs:px-3 md:px-0">
+      <div className="flex-col xs:flex lg:hidden gap-2 xs:px-3 md:px-0">
         <FirstRow />
         <SecondRow />
         <ThirdRow />
@@ -27,13 +27,13 @@ const Mobile = () => {
         <SixthRow />
         <SeventhRow />
       </div>
-      <div className="flex-col xs:flex md:hidden gap-2 pb-10">
+      <div className="flex-col xs:flex lg:hidden gap-2 pb-10">
         <Coins mobile />
         <ActionButton />
         <EigthRow />
       </div>
 
-      <div className="flex-col xs:flex md:hidden gap-2 xs:px-3 md:px-0">
+      <div className="flex-col xs:flex lg:hidden gap-2 xs:px-3 md:px-0">
         <NinthRow />
         <NinthRow />
         <NinthRow />

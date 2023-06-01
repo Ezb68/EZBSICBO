@@ -5,7 +5,7 @@ import Lists from "./Lists";
 const Audio = () => {
   return (
     <div className="xs:bg-none sm:bg-[#292929] pb-[20px]">
-      <div className="flex flex-col gap-5 xs:py-[20px] sm:py-10">
+      <div className="flex flex-col gap-5 xs:py-[20px] sm:py-10 lg:py-5 xl:py-10">
         <Bars data={{ name: "Âm nhạc", value: "33" }} />
         <div className="flex items-center justify-center gap-10">
           <button className="w-[25px]">

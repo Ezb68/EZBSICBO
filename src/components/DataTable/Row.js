@@ -4,7 +4,7 @@ const Row = ({ item }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-[#110012] xs:text-[12px] md:text-[.8vw]">
+    <div className="bg-[#110012] xs:text-[12px]">
       <button
         onClick={() => setIsOpen(!isOpen)}
         className="text-white py-3 px-5 text-center bg-[#7C1F58] border border-[#FF005C] border-b-0 last:border-b flex justify-between items-center w-full"

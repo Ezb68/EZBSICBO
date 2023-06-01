@@ -6,7 +6,7 @@ import Header from "./Header";
 const CoinRangeModal = () => {
   return (
     <div
-      className="xs:w-[80%] md:w-[840px] border border-[#FFCDCC] xs:px-[20px] md:px-[30px] py-[20px]"
+      className="xs:w-[80%] lg:w-[50%] xl:w-[840px] border border-[#FFCDCC] xs:px-[20px] md:px-[30px] py-[20px]"
       style={{
         background:
           "linear-gradient(180deg, rgba(38, 0, 26, 0.95) 0%, rgba(22, 0, 21, 0.95) 100%)",

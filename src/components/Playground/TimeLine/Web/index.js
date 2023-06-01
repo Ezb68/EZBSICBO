@@ -7,7 +7,7 @@ import Tracking from "./Tracking";
 
 const Web = () => {
   return (
-    <div className="flex-col xs:hidden md:flex">
+    <div className="flex-col xs:hidden lg:flex">
       <FirstRow />
       <SecondRow />
       <ThirdRow />

@@ -2,7 +2,7 @@ import React from "react";
 
 const UpperBox = () => {
   return (
-    <div className="bg-[#110012] p-6">
+    <div className="bg-[#110012] p-6 text-[14px]">
       <div className="flex justify-between items-center border-y border-y-[#7C1F58] py-3">
         <div className="flex flex-col gap-1">
           <p className="yellowTextColor">Tài xỉu</p>

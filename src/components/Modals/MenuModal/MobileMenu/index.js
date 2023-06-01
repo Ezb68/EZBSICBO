@@ -24,7 +24,7 @@ const MobileMenu = () => {
 
   return (
     <div
-      className="sm:w-[50%] md:w-[18%] sm:h-[calc(100vh_-_50px)] md:h-[calc(100vh_-_60px)] absolute right-0 top-0"
+      className="sm:w-[50%] md:w-[35%] lg:w-[25%] xl:w-[18%] sm:h-[calc(100vh_-_50px)] md:h-[calc(100vh_-_60px)] absolute right-0 top-0"
       style={{
         background: "linear-gradient(180deg, #26001A 0%, #160015 100%)",
       }}
@@ -43,7 +43,7 @@ const MobileMenu = () => {
             className="xs:w-[20px] sm:w-[25px] md:w-[30px]"
           />
 
-          <span className="xs:text-[12px] sm:text-[14px] md:text-[.8vw]">
+          <span className="xs:text-[12px] sm:text-[14px] xl:text-[.8vw]">
             Cá cược tự động
           </span>
         </span>

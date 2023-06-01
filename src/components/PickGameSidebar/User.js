@@ -9,7 +9,7 @@ const User = () => {
         className="w-[50px] h-[50px]"
       />
       <button className="relative py-5 w-full h-[40px]">
-        <p className="text-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 font-bold">
+        <p className="text-black absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 font-bold xs:text-[14px] xl:text-[.8vw]">
           MrKevin
         </p>
         <img

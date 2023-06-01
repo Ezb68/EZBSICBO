@@ -3,7 +3,7 @@ import React from "react";
 const Bars = ({ data }) => {
   return (
     <div className="flex xs:gap-3 sm:gap-8 items-center xs:px-[0px] sm:px-[20px]">
-      <div className="text-white w-[80px] xs:text-[14px] md:text-[.8vw]">
+      <div className="text-white w-[80px] xs:text-[14px] xl:text-[.8vw]">
         {data.name}
       </div>
       <div className="bg-[#505050] h-[10px] flex rounded-[10px] flex-1">

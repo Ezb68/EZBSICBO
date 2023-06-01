@@ -8,14 +8,16 @@ const MenuRight = () => {
       keyword: "dollar",
       xs: "hidden",
       sm: "block",
-      md: "block",
+      md: "hidden",
+      lg: "block",
       alert_type: "pink",
     },
     {
       keyword: "call",
       xs: "hidden",
       sm: "hidden",
-      md: "block",
+      md: "hidden",
+      lg: "block",
       modal_type: ModalTypes.bettingModal,
     },
     {
@@ -23,6 +25,7 @@ const MenuRight = () => {
       xs: "hidden",
       sm: "block",
       md: "block",
+      lg: "block",
       modal_type: ModalTypes.sound,
     },
     {
@@ -30,6 +33,7 @@ const MenuRight = () => {
       xs: "hidden",
       sm: "hidden",
       md: "block",
+      lg: "block",
       modal_type: ModalTypes.playBackModal,
     },
     {
@@ -37,6 +41,7 @@ const MenuRight = () => {
       xs: "block",
       sm: "block",
       md: "block",
+      lg: "block",
       modal_type: ModalTypes.menuModal,
     },
   ];
@@ -46,7 +51,7 @@ const MenuRight = () => {
       return (
         <button
           key={i}
-          className={`xs:${value.xs} sm:${value.sm} md:${value.md} cursor-pointer xs:w-[25px] md:w-[40px]`}
+          className={`xs:${value.xs} sm:${value.sm} md:${value.md} lg:${value.lg} cursor-pointer xs:w-[25px] md:w-[40px]`}
           onClick={() => handleAlert("pink")}
         >
           <img
@@ -59,7 +64,7 @@ const MenuRight = () => {
       return (
         <button
           key={i}
-          className={`xs:${value.xs} sm:${value.sm} md:${value.md} cursor-pointer xs:w-[25px] md:w-[40px]`}
+          className={`xs:${value.xs} sm:${value.sm} md:${value.md} lg:${value.lg} cursor-pointer xs:w-[25px] md:w-[40px]`}
           onClick={() => handleModal(value.modal_type)}
         >
           <img
@@ -72,7 +77,7 @@ const MenuRight = () => {
       return (
         <button
           key={i}
-          className={`xs:${value.xs} sm:${value.sm} md:${value.md} cursor-pointer xs:w-[25px] md:w-[40px]`}
+          className={`xs:${value.xs} sm:${value.sm} md:${value.md} lg:${value.lg} cursor-pointer xs:w-[25px] md:w-[40px]`}
         >
           <img
             src={`./assets/menu-right/${value.keyword}.png`}

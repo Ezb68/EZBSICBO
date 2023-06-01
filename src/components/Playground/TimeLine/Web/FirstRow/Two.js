@@ -4,8 +4,8 @@ import BetLabel from "../BetLabel";
 const Two = ({ item }) => {
   return (
     <>
-      <div className="flex-1 flex flex-col items-center p-4 pb-0">
-        <div className="flex justify-center gap-2 relative">
+      <div className="flex-1 flex flex-col items-center lg:p-2 xl:p-4 pb-0">
+        <div className="flex justify-center lg:gap-1 xl:gap-2 relative">
           {item.cube.map((c, i) => (
             <div className="flex flex-col gap-2" key={i}>
               <img src={`./assets/cube/${c.one}.png`} alt={c.one} />

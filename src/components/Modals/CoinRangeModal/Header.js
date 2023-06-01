@@ -7,7 +7,7 @@ const Header = () => {
     <div className="flex justify-between">
       <div className="">
         <h5 className="xs:text-[4vw] md:text-[24px] pinkTextColor">Cao nhất</h5>
-        <p className="pinkTextColor xs:text-[14px] md:text-[.8vw]">
+        <p className="pinkTextColor xs:text-[14px] 2xl:text-[.8vw]">
           Mời lựa chọn Cao nhất
         </p>
       </div>

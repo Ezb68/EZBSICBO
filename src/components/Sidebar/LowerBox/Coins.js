@@ -56,7 +56,7 @@ const Coins = ({ mobile }) => {
         </button>
       ))}
       {mobile && (
-        <button className="xs:w-1/6 md:w-1/4 xs:p-0 md:p-3 h-max">
+        <button className="xs:w-1/6 lg:w-1/4 xs:p-0 md:p-3 h-max">
           <img
             src="./assets/coins/res.png"
             alt="More"

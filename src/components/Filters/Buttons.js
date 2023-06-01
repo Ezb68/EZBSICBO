@@ -8,7 +8,7 @@ const Buttons = () => {
       {data.map((item, i) => (
         <button
           key={i}
-          className="rounded-[5px] border border-[#FF005C] text-white p-2 px-5 flex items-center gap-3 bg-[#110012] xs:text-[14px] md:text-[.8vw] xs:w-[48%] sm:w-max"
+          className="rounded-[5px] border border-[#FF005C] text-white p-2 px-5 flex items-center gap-3 bg-[#110012] xs:text-[14px] lg:text-[1vw] xl:text-[.8vw] xs:w-[48%] sm:w-max"
         >
           <p>{item}</p>
         </button>

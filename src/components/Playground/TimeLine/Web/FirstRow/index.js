@@ -144,7 +144,7 @@ const FirstRow = () => {
   ];
 
   return (
-    <div className="flex border border-[#7C1F58] rounded-[10px] h-[140px]">
+    <div className="flex border border-[#7C1F58] rounded-[10px] h-[140px] text-[14px]">
       {data.map((item, index) => (
         <div
           key={index}

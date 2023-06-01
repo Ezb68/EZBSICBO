@@ -80,7 +80,7 @@ const ThirdRow = () => {
   ];
 
   return (
-    <div className="flex border border-[#7C1F58] rounded-[10px] h-[140px]">
+    <div className="flex border border-[#7C1F58] rounded-[10px] lg:h-[100px] xl:h-[140px]">
       {data.map((item, index) => (
         <div
           key={index}
@@ -103,7 +103,7 @@ const ThirdRow = () => {
                     className="flex border-r border-r-[#7C1F58] last:border-r-0 px-2"
                   >
                     <div
-                      className={`flex flex-col justify-center gap-2 w-full p-3 relative ${
+                      className={`flex flex-col justify-center gap-2 w-full lg:p-1 2xl:p-3 relative ${
                         c.bet ? "border border-[#FFCDCC]" : ""
                       }`}
                       key={i}

@@ -5,7 +5,7 @@ import Lists from "./Lists";
 
 const LowerBox = () => {
   return (
-    <div className="w-full p-6 py-4">
+    <div className="w-full p-6 py-4 text-[12px]">
       <Lists />
       <Coins />
       <div

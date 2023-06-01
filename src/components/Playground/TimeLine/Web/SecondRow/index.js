@@ -85,7 +85,9 @@ const SecondRow = () => {
             </div>
           )}
           <div className="flex-1 flex flex-col items-center p-1">
-            <p className="text-[24px] font-bold text-white">{item.value}</p>
+            <p className="lg:text-[20px] xl:text-[24px] font-bold text-white">
+              {item.value}
+            </p>
           </div>
           <div className="h-[30px] flex justify-center items-center text-white text-[14px]">
             {item.num}

@@ -5,7 +5,7 @@ const PlayBackModal = () => {
   const { handleModal, ModalTypes } = useContext(Context);
   return (
     <div
-      className="xs:w-[80%] md:w-[840px] border border-[#FFCDCC]"
+      className="xs:w-[80%] md:w-[50%] xl:w-[840px] border border-[#FFCDCC]"
       style={{
         background:
           "linear-gradient(180deg, rgba(38, 0, 26, 0.95) 0%, rgba(22, 0, 21, 0.95) 100%)",
@@ -13,17 +13,17 @@ const PlayBackModal = () => {
     >
       <div className="flex justify-between bg-[#1C1C1C] xs:px-[20px] md:px-[30px] xs:py-[15px] md:py-[20px]">
         <div className="">
-          <p className="text-white xs:text-[14px] md:text-[.8vw]">Kết quả</p>
-          <p className="text-[#FF005C] xs:text-[12px] md:text-[.8vw]">
+          <p className="text-white xs:text-[14px] xl:text-[.8vw]">Kết quả</p>
+          <p className="text-[#FF005C] xs:text-[12px] xl:text-[.8vw]">
             EZB 12314202324
           </p>
         </div>
         <div className="flex gap-5 items-center">
-          <h3 className="text-[42px] text-white font-normal xs:text-[14px] md:text-[.8vw]">
+          <h3 className="text-[42px] text-white font-normal xs:text-[14px] xl:text-[.8vw]">
             12
           </h3>
           <div className="h-[60%] w-[1px] bg-[#FFCDCC]"></div>
-          <p className="text-white xs:text-[14px] md:text-[.8vw]">Tài</p>
+          <p className="text-white xs:text-[14px] xl:text-[.8vw]">Tài</p>
           <div className="flex gap-3 h-max xs:hidden sm:flex">
             <img
               src="./assets/cube/3.png"

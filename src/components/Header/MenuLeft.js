@@ -2,10 +2,14 @@ import React from "react";
 
 const MenuLeft = () => {
   return (
-    <div className="flex xs:gap-[10px] md:gap-[80px]">
+    <div className="flex xs:gap-[10px] lg:gap-[80px]">
       {/* ====== Brand Icon ====== */}
       <a href="/" className="xs:hidden md:block">
-        <img src="./assets/brand.png" alt="Logo" className="ml-[40px]" />
+        <img
+          src="./assets/brand.png"
+          alt="Logo"
+          className="md:ml-4 lg:ml-[40px]"
+        />
       </a>
       {/* ====== Return Button ====== */}
       <a
@@ -24,7 +28,9 @@ const MenuLeft = () => {
           alt="contact"
           className="xs:w-[25px] md:w-[40px]"
         />
-        <p className="pinkTextColor xs:text-[12px] md:text-[20px]">Mr. Kevin</p>
+        <p className="pinkTextColor xs:text-[12px] lg:text-[14px] xl:text-[20px]">
+          Mr. Kevin
+        </p>
       </div>
       <div className="flex items-center gap-2">
         <img
@@ -33,8 +39,10 @@ const MenuLeft = () => {
           className="xs:w-[25px] md:w-[40px]"
         />
         <div className="flex xs:flex-col sm:flex-row items-center xs:gap-0 sm:gap-2">
-          <p className="text-white xs:text-[12px] md:text-[20px]">Số dư:</p>
-          <span className="yellowTextColor xs:text-[12px] md:text-[20px]">
+          <p className="text-white xs:text-[12px] lg:text-[14px] xl:text-[20px]">
+            Số dư:
+          </p>
+          <span className="yellowTextColor xs:text-[12px] lg:text-[14px] xl:text-[20px]">
             34,459.80
           </span>
         </div>

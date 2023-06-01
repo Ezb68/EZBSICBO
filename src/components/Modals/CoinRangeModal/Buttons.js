@@ -34,14 +34,14 @@ const Buttons = () => {
         {data.map((item, i) => (
           <button
             key={i}
-            className="border border-[#FFCDCC] p-2 text-white rounded-[5px] xs:w-[80px] md:w-[160px] xs:text-[11px] sm:text-[12px] md:text-[.8vw]"
+            className="border border-[#FFCDCC] p-2 text-white rounded-[5px] xs:w-[80px] md:w-[160px] xs:text-[11px] sm:text-[12px] xl:text-[.8vw]"
           >
             {item.lable}
           </button>
         ))}
       </div>
       <button
-        className="xs:w-[60px] md:w-[90px] rounded-[5px] text-white xs:text-[12px] sm:text-[14px] md:text-[.8vw] p-2"
+        className="xs:w-[60px] md:w-[90px] rounded-[5px] text-white xs:text-[12px] sm:text-[14px] xl:text-[.8vw] p-2"
         style={{
           background: "linear-gradient(180deg, #FF005C 0%, #7B005B 100%)",
         }}
