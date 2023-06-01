@@ -36,7 +36,7 @@ const MobileMenu = () => {
           background: "linear-gradient(180deg, #26001A 0%, #160015 100%)",
         }}
       >
-        <span className="flex items-center gap-2">
+        <span className="flex items-center space-x-2">
           <img
             src="./assets/coins/res.png"
             alt="dropdown"

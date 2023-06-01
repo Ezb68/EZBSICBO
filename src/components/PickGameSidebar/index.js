@@ -8,7 +8,7 @@ const PickGameSidebar = () => {
       <div className="flex flex-col">
         <User />
         <Coins />
-        <div className="flex flex-col justify-center items-center px-3 py-5 gap-3 border-b border-b-[#767676] last:border-b-0">
+        <div className="flex flex-col justify-center items-center px-3 py-5 space-y-3 border-b border-b-[#767676] last:border-b-0">
           <p className="text-white mb-2 xs:text-[14px] xl:text-[.8vw]">
             Loại trò chơi
           </p>
@@ -64,7 +64,7 @@ const PickGameSidebar = () => {
           </button>
         </div>
       </div>
-      <div className="px-[15px] flex flex-col items-center py-8 gap-2">
+      <div className="px-[15px] flex flex-col items-center py-8 space-y-2">
         <div className="w-[120px] h-[120px] bg-[#110012]"></div>
         <p className="text-white xs:text-[14px] xl:text-[.8vw]">Tải APP</p>
       </div>

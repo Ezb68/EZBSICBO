@@ -2,7 +2,7 @@ import React from "react";
 
 const PlayerStats = () => {
   return (
-    <div className="flex flex-col gap-2 text-[14px]">
+    <div className="flex flex-col space-y-2 text-[14px]">
       <div className="flex">
         <p className="w-1/2 text-center text-[#00C3F3] text-[18px] font-bold">
           Xỉu

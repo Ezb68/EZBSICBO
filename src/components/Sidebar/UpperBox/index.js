@@ -4,11 +4,11 @@ const UpperBox = () => {
   return (
     <div className="bg-[#110012] p-6 text-[14px]">
       <div className="flex justify-between items-center border-y border-y-[#7C1F58] py-3">
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col space-y-1">
           <p className="yellowTextColor">Tài xỉu</p>
           <h5 className="yellowTextColor text-[24px] font-bold">Bàn 51</h5>
         </div>
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col space-y-2">
           <p className="text-white">Trò chơi 19934 / 65</p>
           <button
             className="flex justify-between w-[150px] h-[30px] items-center px-2 pinkBorderColor"

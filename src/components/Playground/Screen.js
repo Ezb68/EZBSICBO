@@ -7,7 +7,7 @@ const Screen = () => {
         <p className="text-white absolute pinkTextColor">Đang lắc</p>
         <img src="./assets/icons/round.png" alt="" />
       </div>
-      <div className="absolute bottom-5 left-5 flex-col gap-3 xs:flex lg:hidden">
+      <div className="absolute bottom-5 left-5 flex-col space-y-3 xs:flex lg:hidden">
         <button
           className="flex justify-between xs:w-[110px] sm:w-[150px] h-[30px] items-center px-2 pinkBorderColor"
           style={{

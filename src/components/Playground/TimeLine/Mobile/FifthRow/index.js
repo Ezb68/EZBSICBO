@@ -66,11 +66,11 @@ const row1 = [
 
 const FifthRow = () => {
   return (
-    <div className="flex gap-2">
-      <div className="flex border border-[#7C1F58] rounded-[5px] gap-1 bg-[#110012] w-[40px]">
+    <div className="flex space-x-2">
+      <div className="flex border border-[#7C1F58] rounded-[5px] bg-[#110012] w-[40px]">
         <p className="text-white text-[10px] -rotate-90 p-2 px-0 m-auto">1:5</p>
       </div>
-      <div className="flex-1 flex flex-wrap gap-2 justify-between">
+      <div className="flex-1 grid grid-cols-5 gap-2">
         {row1.map((item, i) => (
           <Card key={i} data={item} />
         ))}

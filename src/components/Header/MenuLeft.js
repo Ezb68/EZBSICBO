@@ -2,7 +2,7 @@ import React from "react";
 
 const MenuLeft = () => {
   return (
-    <div className="flex xs:gap-[10px] lg:gap-[80px]">
+    <div className="flex xs:space-x-[10px] lg:space-x-[80px]">
       {/* ====== Brand Icon ====== */}
       <a href="/" className="xs:hidden md:block">
         <img
@@ -22,7 +22,7 @@ const MenuLeft = () => {
           className="w-[20px] m-auto"
         />
       </a>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center space-x-2">
         <img
           src="./assets/contact-icon.png"
           alt="contact"
@@ -32,13 +32,13 @@ const MenuLeft = () => {
           Mr. Kevin
         </p>
       </div>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center space-x-2">
         <img
           src="./assets/coin.png"
           alt="coin"
           className="xs:w-[25px] md:w-[40px]"
         />
-        <div className="flex xs:flex-col sm:flex-row items-center xs:gap-0 sm:gap-2">
+        <div className="flex xs:flex-col sm:flex-row items-center xs:spax-x-0 sm:space-x-2">
           <p className="text-white xs:text-[12px] lg:text-[14px] xl:text-[20px]">
             Số dư:
           </p>

@@ -55,7 +55,7 @@ const List = () => {
             <p className="text-white lg:text-[14px] xl:text-[1.3vw] font-bold">
               {item.two}
             </p>
-            <div className="flex lg:gap-1 2xl:gap-3 items-center">
+            <div className="flex lg:space-x-1 2xl:space-x-3 items-center">
               {item.cube.map((im, ind) => (
                 <img
                   key={ind}

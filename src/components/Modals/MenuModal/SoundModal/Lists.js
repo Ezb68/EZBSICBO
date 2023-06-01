@@ -9,7 +9,7 @@ const data = [
 
 const Lists = () => {
   return (
-    <div className="flex flex-col gap-1 px-[15px]">
+    <div className="flex flex-col space-y-1 px-[15px]">
       {data.map((item, i) => (
         <button
           key={i}
@@ -19,7 +19,7 @@ const Lists = () => {
           <p className="xs:text-[14px] xl:text-[.8vw]">{item}</p>
         </button>
       ))}
-      <div className="flex justify-center items-center gap-5 mt-2">
+      <div className="flex justify-center items-center space-x-5">
         <button className="w-[15px]">
           <img src="./assets/icons/up-arrow.png" alt="up-arrow" />
         </button>

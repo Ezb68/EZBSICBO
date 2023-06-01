@@ -103,7 +103,7 @@ const ThirdRow = () => {
                     className="flex border-r border-r-[#7C1F58] last:border-r-0 px-2"
                   >
                     <div
-                      className={`flex flex-col justify-center gap-2 w-full lg:p-1 2xl:p-3 relative ${
+                      className={`flex flex-col justify-center space-y-2 w-full lg:p-1 2xl:p-3 relative ${
                         c.bet ? "border border-[#FFCDCC]" : ""
                       }`}
                       key={i}

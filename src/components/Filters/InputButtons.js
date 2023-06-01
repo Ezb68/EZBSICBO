@@ -7,8 +7,8 @@ const InputButtons = () => {
   const { handleModal, ModalTypes } = useContext(Context);
 
   return (
-    <div className="flex xs:flex-col sm:flex-row gap-1 md:gap-3 xs:justify-between items-center md:justify-start">
-      <div className="flex items-center gap-3">
+    <div className="flex xs:flex-col sm:flex-row xs:space-y-3 sm:space-y-0 md:space-x-3 xs:justify-between items-center md:justify-start">
+      <div className="flex items-center xs:space-x-0 2xl:space-x-3">
         <label className="text-white xs:hidden lg:hidden 2xl:block text-[.8vw]">
           From
         </label>
@@ -20,7 +20,7 @@ const InputButtons = () => {
       <div className="xs:hidden sm:block md:hidden lg:hidden 2xl:block w-[20px] h-[20px]">
         <img src="./assets/icons/six-square.png" alt="square" />
       </div>
-      <div className="flex items-center gap-3">
+      <div className="flex items-center xs:space-x-0 sm:space-x-3">
         <label className="text-white xs:hidden lg:hidden 2xl:block">To</label>
         <Calendar />
         <div className="xs:hidden lg:hidden 2xl:block">
@@ -35,7 +35,7 @@ const InputButtons = () => {
       </div>
       <button
         onClick={() => handleModal(ModalTypes.playBackModal)}
-        className="rounded-[5px] border border-[#FF005C] text-white p-2 px-5 flex items-center gap-3 text-[14px] xs:w-[90vw] sm:w-max"
+        className="rounded-[5px] border border-[#FF005C] text-white p-2 px-5 flex items-center space-x-3 text-[14px] xs:w-[90vw] sm:w-max"
         style={{
           background: "linear-gradient(180deg, #FF005C 0%, #7B005B 100%)",
         }}

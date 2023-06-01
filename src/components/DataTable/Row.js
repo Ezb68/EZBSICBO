@@ -10,12 +10,12 @@ const Row = ({ item }) => {
         className="text-white py-3 px-5 text-center bg-[#7C1F58] border border-[#FF005C] border-b-0 last:border-b flex justify-between items-center w-full"
       >
         {item.two.split(" ")[0]}
-        <div className="flex gap-8 items-center">
+        <div className="flex space-x-8 items-center">
           <span>Tổng: 100.00</span>
           <img
             src={`./assets/icons/${isOpen ? "menu-up" : "menu-down"}.png`}
             alt={isOpen ? "menu-up" : "menu-down"}
-            className="w-[12px] h-max"
+            className="w-[12px] h-full"
           />
         </div>
       </button>
@@ -23,40 +23,40 @@ const Row = ({ item }) => {
       <div className={isOpen ? "block" : "hidden"}>
         <div className="text-white py-3 px-5 text-center bg-[#7C1F58] border border-[#FF005C] border-b-0 last:border-b flex justify-between items-center">
           {`${item.four} ${item.three}`}
-          <div className="flex gap-8 items-center">
+          <div className="flex space-x-8 items-center">
             <span className="font-bold">{`Trò chơi  ${item.five} / ${item.six}`}</span>
           </div>
         </div>
 
         <div className="text-white py-3 px-5 text-center border border-[#FF005C] border-b-0 last:border-b flex justify-between items-center">
-          <div className="flex flex-col gap-2 items-start">
+          <div className="flex flex-col space-y-2 items-start">
             <span>Kết quả</span>
-            <div className="flex gap-2">
+            <div className="flex space-x-2">
               <img
                 src="./assets/cube/2.png"
                 alt="two"
-                className="xs:w-[20px] sm:w-[30px] h-max"
+                className="xs:w-[20px] sm:w-[30px] h-full"
               />
               <img
                 src="./assets/cube/5.png"
                 alt="five"
-                className="xs:w-[20px] sm:w-[30px] h-max"
+                className="xs:w-[20px] sm:w-[30px] h-full"
               />
               <img
                 src="./assets/cube/5.png"
                 alt="five"
-                className="xs:w-[20px] sm:w-[30px] h-max"
+                className="xs:w-[20px] sm:w-[30px] h-full"
               />
             </div>
           </div>
-          <div className="flex gap-4 items-center">
+          <div className="flex space-x-4 items-center">
             <span>TG bắt đầu</span>
             <span>{item.two.split(" ")[1]}</span>
             <span>Chiếu lại</span>
             <img
               src="./assets/icons/play.png"
               alt="menu-up"
-              className="w-[25px] h-max"
+              className="w-[25px] h-full"
             />
           </div>
         </div>

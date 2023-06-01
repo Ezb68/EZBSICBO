@@ -18,27 +18,27 @@ const PlayBackModal = () => {
             EZB 12314202324
           </p>
         </div>
-        <div className="flex gap-5 items-center">
+        <div className="flex space-x-5 items-center">
           <h3 className="text-[42px] text-white font-normal xs:text-[14px] xl:text-[.8vw]">
             12
           </h3>
           <div className="h-[60%] w-[1px] bg-[#FFCDCC]"></div>
           <p className="text-white xs:text-[14px] xl:text-[.8vw]">Tài</p>
-          <div className="flex gap-3 h-max xs:hidden sm:flex">
+          <div className="flex space-x-3 h-max xs:hidden sm:flex">
             <img
               src="./assets/cube/3.png"
               alt="3"
-              className="xs:w-[30px] md:w-auto h-max"
+              className="xs:w-[30px] md:w-auto h-full"
             />
             <img
               src="./assets/cube/4.png"
               alt="4"
-              className="xs:w-[30px] md:w-auto h-max"
+              className="xs:w-[30px] md:w-auto h-full"
             />
             <img
               src="./assets/cube/5.png"
               alt="5"
-              className="xs:w-[30px] md:w-auto h-max"
+              className="xs:w-[30px] md:w-auto h-full"
             />
           </div>
         </div>
@@ -52,7 +52,7 @@ const PlayBackModal = () => {
       <div className="">
         <img src="./assets/main/table.png" alt="vid" />
       </div>
-      <div className="py-3 xs:px-[20px] md:px-[30px] bg-[#000000] flex items-center xs:gap-5 md:gap-10">
+      <div className="py-3 xs:px-[20px] md:px-[30px] bg-[#000000] flex items-center xs:space-x-5 md:space-x-10">
         <button>
           <img src="./assets/icons/play.png" alt="play" />
         </button>
@@ -68,7 +68,7 @@ const PlayBackModal = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center gap-2 h-[15px]">
+        <div className="flex items-center space-x-2 h-[15px]">
           <p className="text-white text-[14px]">00:06</p>
           <div className="h-full w-[1px] bg-white"></div>
           <p className="text-white text-[14px]">00:35</p>

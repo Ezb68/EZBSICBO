@@ -2,8 +2,8 @@ import React from "react";
 
 const Coins = () => {
   return (
-    <div className="flex flex-col justify-center items-center px-3 py-5 gap-3 border-b border-b-[#767676] last:border-b-0">
-      <div className="flex gap-2 items-center w-full py-4">
+    <div className="flex flex-col justify-center items-center px-3 py-5 space-y-3 border-b border-b-[#767676] last:border-b-0">
+      <div className="flex space-x-2 items-center w-full py-4">
         <img src="./assets/coin.png" alt="coin" className="w-[40px] h-[40px]" />
         <p className="text-[#FDDA72] font-bold border-b border-b-[#FDDA72] flex-1 text-[18px]">
           550.000 VND

@@ -2,7 +2,7 @@ import React from "react";
 
 const User = () => {
   return (
-    <div className="flex flex-col justify-center items-center px-3 py-5 gap-3 border-b border-b-[#767676] last:border-b-0">
+    <div className="flex flex-col justify-center items-center px-3 py-5 space-y-3 border-b border-b-[#767676] last:border-b-0">
       <img
         src="./assets/contact-icon.png"
         alt="user"

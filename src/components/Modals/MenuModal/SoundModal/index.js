@@ -34,7 +34,7 @@ const SoundModal = () => {
         </button>
       </div>
 
-      <div className="flex flex-col md:gap-2 xl:gap-5 xs:py-[20px] sm:py-10 md:py-5 xl:py-10">
+      <div className="flex flex-col xs:space-y-3 xl:space-y-5 xs:py-[20px] sm:py-10 md:py-5 xl:py-10">
         {data.map((item, i) => (
           <Bars data={item} key={i} />
         ))}

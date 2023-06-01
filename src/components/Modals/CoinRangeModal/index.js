@@ -13,7 +13,7 @@ const CoinRangeModal = () => {
       }}
     >
       <Header />
-      <div className="flex xs:gap-1 md:gap-3 py-5">
+      <div className="flex xs:space-x-1 md:space-x-2 py-5">
         <Buttons />
       </div>
       <DataTable />

@@ -53,21 +53,21 @@ const data = [
 
 const WarmStats = () => {
   return (
-    <div className="flex flex-col gap-4 text-[14px] mt-5">
+    <div className="flex flex-col space-y-4 text-[14px] mt-5">
       <div className="flex px-2">
-        <div className="w-1/2 text-left text-[#FF005C] text-[18px] font-bold flex items-center gap-2 justify-start">
+        <div className="w-1/2 text-left text-[#FF005C] text-[18px] font-bold flex items-center space-x-2 justify-start">
           <img src="./assets/icons/hot.png" alt="hot" className="w-[50px]" />
-          Hot
+          <p>Hot</p>
         </div>
-        <div className="w-1/2 text-right text-[18px] font-bold text-[#00C3F3] flex items-center gap-2 justify-end">
+        <div className="w-1/2 text-right text-[18px] font-bold text-[#00C3F3] flex items-center space-x-2 justify-end">
           <img src="./assets/icons/cold.png" alt="cold" className="w-[50px]" />
-          Cold
+          <p>Cold</p>
         </div>
       </div>
-      <div className="flex overflow-hidden w-full gap-2">
+      <div className="flex overflow-hidden w-full space-x-2">
         {data.map((item, i) => (
           <div
-            className="flex flex-col gap-2"
+            className="flex flex-col space-y-2"
             key={i}
             style={{ width: `${100 / 8}%` }}
           >

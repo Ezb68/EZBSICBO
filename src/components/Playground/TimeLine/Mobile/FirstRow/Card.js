@@ -3,7 +3,7 @@ import HealthBar from "./HealthBar";
 
 const Card = ({ data }) => {
   return (
-    <div className="flex border border-[#7C1F58] rounded-[5px] w-1/3 p-[8px] xs:gap-1 sm:gap-2">
+    <div className="flex border border-[#7C1F58] rounded-[5px] w-1/3 p-[8px] xs:space-x-1 sm:space-x-2">
       {data.side === "right" && <HealthBar data={data} />}
       <div className={`h-full flex-1 flex flex-col`}>
         <div className="flex-1 flex-col items-center flex">
@@ -16,7 +16,7 @@ const Card = ({ data }) => {
           <span className="text-white text-[12px]">{data.type}</span>
         </div>
         <div className="justify-between items-center text-white xs:text-[11px] sm:text-[12px] flex">
-          <div className="flex items-center gap-1">
+          <div className="flex items-center space-x-1">
             <img
               src="./assets/main/total.png"
               alt="total"
@@ -24,7 +24,7 @@ const Card = ({ data }) => {
             />
             <p>{data.totalCoin}</p>
           </div>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center space-x-1">
             <img src="./assets/main/user.png" alt="users" className="w-3 h-3" />
             <p>{data.users}</p>
           </div>

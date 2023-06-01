@@ -50,13 +50,13 @@ const SelectCoinModal = () => {
             <img
               src={`./assets/coins/${item}.png`}
               alt={item}
-              className="xs:h-max xs:w-[60px] md:w-full md:h-full"
+              className="xs:h-full xs:w-[60px] md:w-full md:h-full"
             />
           </button>
         ))}
       </div>
 
-      <div className="flex justify-center xs:gap-3 lg:gap-5 2xl:gap-10 px-5 py-10 pt-5">
+      <div className="flex justify-center xs:space-x-3 lg:space-x-5 2xl:space-x-4 px-5 py-10 pt-5">
         <button
           className="xs:px-5 sm:px-10 xs:py-3 md:py-4 border border-[#FFCDCC] text-white rounded-[5px] btnHoverPink xs:text-[14px] 2xl:text-[.8vw]"
           style={{

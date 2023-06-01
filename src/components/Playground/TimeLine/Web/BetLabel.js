@@ -11,11 +11,13 @@ const BetLabel = ({ data }) => {
       >
         {data}
       </div>
-      <img
-        src={`./assets/coins/${data}.png`}
-        alt={data}
-        className="lg:w-[35px] xl:w-[40px]"
-      />
+      <div>
+        <img
+          src={`./assets/coins/${data}.png`}
+          alt={data}
+          className="lg:w-[35px] xl:w-[40px] h-full"
+        />
+      </div>
     </div>
   );
 };

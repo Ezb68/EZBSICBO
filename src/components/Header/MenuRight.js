@@ -89,8 +89,8 @@ const MenuRight = () => {
   };
 
   return (
-    <div className="flex items-center gap-[12px] mx-5">
-      <div className="xs:hidden md:flex items-center justify-between gap-6 h-[40px] border-x border-x-[#FFCDCC] px-3 mr-4 cursor-pointer">
+    <div className="flex items-center space-x-[12px] mx-5">
+      <div className="xs:hidden md:flex items-center justify-between space-x-6 h-[40px] border-x border-x-[#FFCDCC] px-3 mr-4 cursor-pointer">
         <p className="pinkTextColor text-[12px]">Tiếng Việt</p>
         <img src="./assets/menu-right/dropdown.png" alt="dropdown-icon" />
       </div>

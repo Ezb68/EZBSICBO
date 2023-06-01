@@ -4,7 +4,7 @@ import InputButtons from "./InputButtons";
 
 const Filters = () => {
   return (
-    <div className="flex xs:flex-col lg:flex-row gap-3 py-5">
+    <div className="flex xs:flex-col lg:flex-row xs:space-y-3 lg:space-y-0 py-5">
       <InputButtons />
       <div className="md:px-0 lg:px-4 py-1 xs:hidden lg:block">
         <div className="h-full w-[1px] bg-[#D65114]"></div>

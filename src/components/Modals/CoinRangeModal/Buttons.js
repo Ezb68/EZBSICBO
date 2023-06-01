@@ -30,11 +30,11 @@ const data = [
 const Buttons = () => {
   return (
     <>
-      <div className="flex-1 flex flex-wrap gap-3">
+      <div className="flex-1 flex flex-wrap">
         {data.map((item, i) => (
           <button
             key={i}
-            className="border border-[#FFCDCC] p-2 text-white rounded-[5px] xs:w-[80px] md:w-[160px] xs:text-[11px] sm:text-[12px] xl:text-[.8vw]"
+            className="border border-[#FFCDCC] p-2 text-white rounded-[5px] xs:w-[80px] md:w-[160px] xs:text-[11px] sm:text-[12px] xl:text-[.8vw] mr-2 mb-3"
           >
             {item.lable}
           </button>

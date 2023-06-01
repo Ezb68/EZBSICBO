@@ -17,7 +17,7 @@ const BettingModal = () => {
           <img src="./assets/icons/cancel.png" alt="cancel" />
         </button>
       </div>
-      <div className="flex flex-col gap-5 py-8 pb-4">
+      <div className="flex flex-col space-y-5 py-8 pb-4">
         <div className="flex items-center">
           <p className="text-white xs:w-[80px] lg:w-[100px] xl:w-[130px] xs:text-[12px] sm:text-[14px] xl:text-[.8vw]">
             TK Chính
@@ -59,7 +59,7 @@ const BettingModal = () => {
           <p className="text-white xs:w-[80px] lg:w-[100px] xl:w-[130px] xs:text-[12px] sm:text-[14px] xl:text-[.8vw] xs:mb-2 sm:mb-0">
             Điểm chuyển
           </p>
-          <div className="flex-1 flex justify-between items-center xs:gap-3 xl:gap-5">
+          <div className="flex-1 flex justify-between items-center xs:space-x-3 xl:space-x-5">
             <input
               type="text"
               placeholder="Nhập số điểm"
@@ -71,7 +71,7 @@ const BettingModal = () => {
           </div>
         </div>
         <div className="flex items-center">
-          <div className="flex-1 flex xs:flex-col xl:flex-row justify-between items-center gap-5 xs:w-full sm:w-max">
+          <div className="flex-1 flex xs:flex-col xl:flex-row justify-between items-center xs:space-x-0 xl:space-x-5 xs:space-y-5 xl:space-y-0 xs:w-full sm:w-max">
             <button className="text-white bg-[#767676] py-3 xs:px-2 xl:px-5 rounded-[5px] xs:text-[12px] sm:text-[14px] xl:text-[.8vw] xs:h-max sm:h-full xs:w-full md:w-full">
               Chuyển hết về tài khoản chính
             </button>

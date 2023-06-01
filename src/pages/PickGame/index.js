@@ -33,7 +33,7 @@ const PickGame = () => {
               Chọn bàn
             </h3>
           </div>
-          <div className="flex xs:flex-col md:flex-row xs:flex-nowrap md:flex-wrap lg:flex-nowrap justify-between xs:gap-5 md:gap-0 lg:gap-10 xs:mt-5 lg:mt-10 mb-8">
+          <div className="flex xs:flex-col md:flex-row xs:flex-nowrap md:flex-wrap lg:flex-nowrap justify-between xs:space-y-5 md:space-y-0 lg:space-y-0 xs:space-x-0 lg:space-x-10 xs:mt-5 lg:mt-10 mb-8">
             <button
               onClick={() => navigate("/main")}
               className="md:w-1/2 xs:px-5 md:p-2 lg:p-0"

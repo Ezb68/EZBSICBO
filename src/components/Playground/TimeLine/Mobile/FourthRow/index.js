@@ -62,7 +62,7 @@ const data = [
 
 const FourthRow = () => {
   return (
-    <div className="flex gap-2 flex-wrap justify-between">
+    <div className="grid grid-cols-7 gap-2">
       {data.map((item, i) => (
         <Card key={i} data={item} />
       ))}
