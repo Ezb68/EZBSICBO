@@ -32,7 +32,7 @@ const CubeStats = () => {
     <div className="grid grid-cols-2 py-5 gap-5">
       {data.map((item, i) => (
         <div className="flex gap-5 items-center pr-2 even:pl-2 w-full" key={i}>
-          <div className="flex-1 flex items-center gap-3 text-white text-[14px]">
+          <div className="flex-1 flex items-center space-x-3 text-white text-[14px]">
             <img
               src={`./assets/cube/${item.value}.png`}
               alt={item.value}

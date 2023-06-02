@@ -69,7 +69,7 @@ const FourthRow = () => {
             <>
               <div className="flex justify-center">
                 <div
-                  className={`flex items-center gap-2 p-1 px-5 ${
+                  className={`flex items-center md:space-x-1 xl:space-x-2 p-1 px-5 ${
                     item.bet
                       ? "border border-[#FFCDCC]"
                       : "border-r border-r-[#7C1F58] last:border-r-0"
@@ -88,8 +88,11 @@ const FourthRow = () => {
                   <img
                     src={`./assets/cube/${item.value}.png`}
                     alt={item.value}
+                    className="md:w-[30px] xl:w-[35px]"
                   />
-                  <p className="text-white font-bold">{item.name}</p>
+                  <p className="text-white font-bold md:text-[10px] xl:text-[.8vw]">
+                    {item.name}
+                  </p>
                 </div>
               </div>
             </>
